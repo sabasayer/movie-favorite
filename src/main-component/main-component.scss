@@ -1,0 +1,44 @@
+$padding: 6px;
+
+body {
+  background: #ededed;
+}
+
+.movies-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 6px;
+}
+
+.movie-card {
+  background: white;
+  border-radius: 5px;
+  width: 200px;
+  margin: 0 $padding $padding 0;
+
+  .movie-card__poster {
+    max-height: 200px;
+    overflow: hidden;
+  }
+
+  .movie-card__title {
+    padding: $padding;
+    font-size: 14px;
+  }
+
+  .movie-card__footer {
+    padding: $padding 0;
+    display: flex;
+    span {
+      margin: 0 $padding;
+    }
+  }
+
+  .movie-card__date {
+    padding: $padding;
+  }
+}
+
+.flex-grow {
+  flex-grow: 1;
+}

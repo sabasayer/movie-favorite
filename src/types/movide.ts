@@ -3,6 +3,6 @@ export interface IMovie{
     poster_path:string
     title:string
     release_date:string
-    vote_avarage:number
+    vote_average:number
     vote_count:number
 }

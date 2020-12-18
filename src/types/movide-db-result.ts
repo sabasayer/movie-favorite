@@ -1,6 +1,6 @@
 import { IMovie } from "./movide";
 
-export interface IMovideDbResult{
+export interface IMovieDbResult{
     page:number;
     total_page:number;
     total_results:number

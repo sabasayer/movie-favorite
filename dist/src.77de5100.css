@@ -1,0 +1,40 @@
+body {
+  background: #ededed;
+}
+
+.movies-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 6px;
+}
+
+.movie-card {
+  background: white;
+  border-radius: 5px;
+  width: 200px;
+  margin: 0 6px 6px 0;
+}
+.movie-card .movie-card__poster {
+  max-height: 200px;
+  overflow: hidden;
+}
+.movie-card .movie-card__title {
+  padding: 6px;
+  font-size: 14px;
+}
+.movie-card .movie-card__footer {
+  padding: 6px 0;
+  display: flex;
+}
+.movie-card .movie-card__footer span {
+  margin: 0 6px;
+}
+.movie-card .movie-card__date {
+  padding: 6px;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+/*# sourceMappingURL=/src.77de5100.css.map */
