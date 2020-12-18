@@ -1,0 +1,14 @@
+{
+  "name": "filmfavorite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "salihbaki",
+  "license": "MIT",
+  "scripts": {
+    "serve": "parcel src/index.html --open"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^4.1.3"
+  }
+}
